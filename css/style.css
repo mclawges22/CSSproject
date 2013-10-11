@@ -4,10 +4,11 @@
 }
 @font-face{
 	font-family:Myriad Pro;
-	src:url('fonts/MyriadPro.otf');
+	src:url('fonts/MyriadPro-Regular.otf');
 }
 h1, h2, h3, h4, h5, h6, p {
-    font-family:Myriad Pro Light;
+    font-family:Myriad Pro;
+    font-weight:400;
 }
 
 
@@ -170,7 +171,7 @@ nav .row {
     color:#fe7f13;
     float: left;
     position:relative;
-    font-family:Myriad Pro;
+    font-family:Myriad Pro, sans-serif;
     padding:1.5% 3% 1% 1.5%;
     border-right:1px solid #eee;
     font-size: 1.1em;
@@ -181,7 +182,7 @@ nav .row {
     color:#818181;
     float:left;
     position:relative;
-    font-family:Myriad Pro;
+    font-family:Myriad Pro, sans-serif;
     padding:1.5% 7% 1% 1.5%;
     border-right:1px solid #eee;
     font-size: .9em;
@@ -210,10 +211,10 @@ nav .row {
 }
 	.tasks h4 {
 		
-		font-family:Myriad Pro;	
+		font-family:Myriad Pro, sans-serif;	
 	}
 	.tasks h3 {
-		font-family:Myriad Pro;	
+		font-family:Myriad Pro, sans-serif;	
 		font-size: 2em;
 		color:#2498f4;
 		margin-left:30px;
@@ -342,7 +343,7 @@ li:last-child .head {
 	font-size:.8em;
 	color:#33cc66;
 	text-decoration: none;
-	font-family:Myriad Pro;
+	font-family:Myriad Pro, sans-serif;
 }
 .recommend li:hover h5 {
 	padding:0;
@@ -350,7 +351,7 @@ li:last-child .head {
 	font-size:1.3em;
 	color:#33cc66;
 	text-decoration: none;
-	font-family:Myriad Pro;
+	font-family:Myriad Pro, sans-serif;
 }
 
 /***MAIN ANALYTICS***/
@@ -361,7 +362,7 @@ li:last-child .head {
 	width: 68%;
 }
 	.analytics h3 {
-			font-family:Myriad Pro;	
+			font-family:Myriad Pro, sans-serif;	
 			font-size: 2.3em;
 			color:#2498f4;
 			margin-left:6%;
@@ -370,7 +371,7 @@ li:last-child .head {
 		padding:0;
 		margin:1% 0 0 10%;
 		font-size:1em;
-		font-family:Myriad Pro;
+		font-family:Myriad Pro, sans-serif;
 		color:#bbb;
 		float:left;
 	}
@@ -570,7 +571,7 @@ li:last-child .head {
 }
 	.blue-bottom h5 {
 		color:#fff;
-		font-family:Myriad Pro;
+		font-family:Myriad Pro, sans-serif;
 		margin-left:3%;
 		padding:1em 1em;
 		width:84%;
@@ -657,7 +658,7 @@ li:last-child .head {
 	position:absolute;
 	color:#33cc66;
 	text-align:right;
-	font-family:Myriad Pro;
+	font-family:Myriad Pro, sans-serif;
 	
 }
 .bottom .green:hover h1, .bottom .orange:hover h1 {
@@ -669,7 +670,7 @@ li:last-child .head {
 	padding:3% 0 0 1%;
 	position:absolute;
 	color:#fe7f13;
-	font-family:Myriad Pro;
+	font-family:Myriad Pro, sans-serif;
 }
 .bottom .green h2 {
 	z-index:50;
@@ -677,7 +678,7 @@ li:last-child .head {
 	position:absolute;
 	color:#777;
 	padding:8.5% 0 0 13.8%;
-	font-family:Myriad Pro;
+	font-family:Myriad Pro, sans-serif;
 }
 
 /*****FOOTER*****/
@@ -701,7 +702,7 @@ footer {
 			float:left;
 			color:#818181;
 			margin:0;
-			font-family:Myriad Pro;
+			font-family:Myriad Pro, sans-serif;
 			padding:1.6% 2%;
 			font-size: .9em;
 			

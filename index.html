@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Maegan Clawges">
+
+    <title>CSS Exercise - JOMC 586</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    
+    <header class="row">
+      
+      <div class="col-md-1"></div>
+      <div class="col-md-8"><p id="title">social stream</p></div>
+      <div class="col-md-3">
+        <p class="fleft">MINI of Raleigh</p>
+        <img class="fleft" src="images/head-icon-1.png" height="100%">
+          <img src="images/head-icon-2.png" height="100%">
+      </div>
+      
+    </header>
+    
+    <nav>
+      
+      <div class="col-md-3 menu-side">
+        <img src="images/menu-bg-left.png" >
+      </div>
+      <div class="col-md-6 menu-center" class="img-responsive">
+        <ul>
+          <li id="active"><a href="#" id="current"><img src="images/a-dashboard.png" ></a></li>
+          <li><a href="#"><img src="images/a-customers.png" ></a></li>
+          <li><a href="#"><img src="images/a-messages.png" ></a></li>
+          <li><a href="#"><img src="images/a-promotions.png" ></a></li>
+          <li><a href="#"><img src="images/a-pageCreator.png" ></a></li>
+          <li><a href="#"><img src="images/a-analytics.png" ></a></li>
+        </ul>
+        <img src="images/menu-bg.png" id="menu-bg" >
+      </div>
+      <div class="col-md-3 menu-side">
+        <img src="images/menu-bg-right.png" >
+      </div> 
+    </nav>
+
+    <div class="container container-fluid">
+      
+      <div class="row" id="dashboard">
+        <h1>Dashboard</h1>
+        <form>
+	  <input type="text">
+          <img src="images/search.png">
+	</form>
+      </div>
+      
+      <div id="main">
+        <img class="main-bg" src="images/main-bg.png">
+        <div class="main-inner">
+          <div class="top">
+            <p class="announcements">ANNOUNCEMENTS</p>
+            <p class="announcements-latin">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+            <img class="arrow" src="images/arrow-left.png" />
+            <img class="arrow arr-right" src="images/arrow-right.png" > 
+          </div>
+          
+          <div class="col-md-4 tasks">
+            <h3>Tasks<img src="images/settings.png" class="settings"></h3>
+            <ul class="task-side">
+              <li class="active">
+                <h4 class="task">1</h4>
+                <h4 class="task-name">Welcome Contacts</h4>
+                <div>
+                  <img src="images/head.png">
+                  <h4 class="head">32</h4>
+                </div>
+              </li>
+              <li>
+                <h4 class="task">2</h4>
+                <h4 class="task-name">Provide Responses</h4>
+                <div>
+                  <img src="images/head-blue.png">
+                  <h4 class="head">36</h4>
+                </div>
+              </li>
+              <li>
+                <h4 class="task">3</h4>
+                <h4 class="task-name">Review Activity</h4>
+                <div>
+                  <img src="images/head-blue.png">
+                  <h4 class="head">36</h4>
+                </div>
+              </li>
+              <li>
+                <h4 class="task">4</h4>
+                <h4 class="task-name">Reach Out</h4>
+                <div>
+                  <img src="images/head-blue.png">
+                  <h4 class="head">3</h4>
+                </div>
+              </li>
+            </ul>
+            
+            <h3>Recommendations</h3>
+            <ul class="recommend">
+              <li>
+                <img src="images/article.png">
+                <p>Article</p>
+                <h5>7 Steps to getting more Fans</h5>
+              </li>
+              <li class="too">
+                <img src="images/article.png">
+                <p>Article</p>
+                <h5>Increase traction with more interactions</h5>
+              </li>
+              <li>
+                <img src="images/checklist.png">
+                <p>Checklist</p>
+                <h5>Creating a Promotion</h5>
+              </li>
+              <li>
+                <img src="images/tip.png">
+                <p>Tip</p>
+                <h5>Share More</h5>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="col-md-8 row analytics">
+            <h3>Analytics</h3>
+            <div class="col-md-10 bar-graph">
+              <p>ACTIVITY</p>
+              <div>
+                <p>06/28/11 - 07/21/11</p>
+                <img class="selector" src="images/selector.png" >
+              </div>
+              <img src="images/bar-graph.png" class="img-responsive graph">  
+            </div>
+            <div class="col-md-2 channels">
+              <p>CHANNELS</p>
+              <img src="images/channel-1.png">
+              <p>REFERRALS</p>
+              <img src="images/channel-2.png">
+            </div>
+            <div class="checkboxes">
+              <div class="box">
+                <a href="#">
+                  <img src="images/check.png">
+                  <div></div>
+                </a>
+              </div>
+              <img src="images/facebook.png">
+              <div class="box">
+                <a href="#">
+                  <img src="images/check.png">
+                  <div></div>
+                </a>
+              </div>
+              <img src="images/twitter.png">
+              <div class="box">
+                <a href="#">
+                  <img src="images/check.png">
+                  <div></div>
+                </a>
+              </div>
+              <img src="images/fourSquare.png">
+              <div class="box">
+                <a href="#">
+                  <img src="images/check.png">
+                    <div></div>
+                </a>
+              </div>
+              <img src="images/google.png">
+            </div>
+            
+            <div class="row CandC" >
+              <div class="col-md-6 cc">
+                  <div class="left">
+                    <h4>75 Contacts</h4>
+                    <p>4 INFLUENCERS</p>
+                    <img src="images/graph-green.png">
+                  </div>
+                  <img src="images/left-flag.png" class="left-flag-a">
+                  <img src="images/head-green.png" class="head-green">
+                  <img src="images/right-flag.png" class="right-flag-a">
+              </div>
+              
+              <div class="col-md-6 cc">
+                  <div class="right">
+                    <h4>17 Customers</h4>
+                    <p>0 INFLUENCERS</p>
+                    <img src="images/graph-orange.png">
+                  </div>
+                  <img src="images/left-flag.png" class="left-flag-b">
+                  <img src="images/head-orange.png" class="head-orange">
+                  <img src="images/right-flag.png" class="right-flag-b">
+              </div>
+            </div>
+            
+            <div class="blue-bottom">
+              <img src="images/bottom-left.png" class="left">
+              <h5>DID YOU KNOW?<br>
+                  Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Etiam porta sem malesuada magna mollis euismod.</h5>
+              <img src="images/bottom-right.png" class="right">
+            </div>
+          </div>
+          
+          <div class="bottom">
+            <div class="green">
+              <img src="images/bottom-green.png">
+              <h1>Watch what<br>you say.</h1>
+              <h2>Message Management</h2>
+            </div>
+            <div class="people">
+              <img src="images/bottom-people.png">
+              <div class="text">
+                <h2>See what others are doing with us.</h2>
+              </div>
+            </div>
+            <div class="orange">
+              <img src="images/bottom-orange.png">
+              <h1>Version 2.0<br>is coming.</h1>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div><!-- /.container -->
+
+<footer>
+  
+  <div class="left">
+    <h6>Tutorials</h6>
+    <h6>Support</h6>
+    <h6>Blog</h6>
+  </div>
+  
+    <h6><a href="#">Ariel Winter</a> likes your <a href="#">Win A Cooper Sweepstakes</a> Promotion</h6>
+    <img src="images/footer-upArrow.png" class="arrow">
+      
+  <div class="logout">
+    <img src="images/logout.png"/>
+    <h6><a href="#">Logout</a></h6>
+  </div>
+  
+  <div class="fsm">
+    <img src="images/footer-facebook.png" >
+    <img src="images/footer-twitter.png" >
+    <img src="images/footer-sm3.png" >
+    <img src="images/footer-youtube.png" >
+  </div>
+  
+</footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/jquery.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
